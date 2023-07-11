@@ -33,7 +33,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="/Sphinx-Inventory-fronted-app" element={<Home />} />
+        <Route exact path="/Sphinx" element={<Home />} />
         <Route exact path="/register" element={<OrganizationRegister />} />
         <Route
           exact
