@@ -56,8 +56,8 @@ export default function ItemTabel({ headings, deleteFun, updateFun, search }) {
   const fetchData = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:1111/item/page/" +
-          sessionStorage.getItem("organizationId"),
+        "http://sphinx-architecture-1754966512.ap-south-1.elb.amazonaws.com:8080/item/page/" +
+        sessionStorage.getItem("organizationId"),
         {
           headers: {
             Authorization: `Bearer ` + sessionStorage.getItem("token"),

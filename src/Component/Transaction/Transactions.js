@@ -52,7 +52,7 @@ export default function TransactionTable() {
   const fetchData = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:1111/availability/v10/" +
+        "http://sphinx-architecture-1754966512.ap-south-1.elb.amazonaws.com:8080/availability/v10/" +
           sessionStorage.getItem("organizationId"),
         {
           headers: {

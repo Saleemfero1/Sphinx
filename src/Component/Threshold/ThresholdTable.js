@@ -56,7 +56,7 @@ export default function ThresholdTable({
   const fetchData = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:1111/threshold/page/" +
+        "http://sphinx-architecture-1754966512.ap-south-1.elb.amazonaws.com:8080/threshold/page/" +
           sessionStorage.getItem("organizationId"),
         {
           headers: {

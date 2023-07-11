@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const SUPPLY_DETAILS_BASE_URL = "http://localhost:1111/supply/";
+const SUPPLY_DETAILS_BASE_URL = "http://sphinx-architecture-1754966512.ap-south-1.elb.amazonaws.com:8080/supply/";
 
 class SupplyServices {
   getSupply(organizationId, token) {

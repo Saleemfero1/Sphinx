@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const THRESHOLD_DETAILS_BASE_URL = "http://localhost:1111/threshold/";
+const THRESHOLD_DETAILS_BASE_URL = "http://sphinx-architecture-1754966512.ap-south-1.elb.amazonaws.com:8080/threshold/";
 
 class ThresholdServices {
   getThreshold(organizationId, token) {

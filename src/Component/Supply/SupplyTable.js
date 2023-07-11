@@ -56,7 +56,7 @@ export default function SupplyTable({
   const fetchData = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:1111/supply/page/" +
+        "http://sphinx-architecture-1754966512.ap-south-1.elb.amazonaws.com:8080/supply/page/" +
           sessionStorage.getItem("organizationId"),
         {
           headers: {

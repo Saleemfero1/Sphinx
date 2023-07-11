@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const DEMAND_DETAILS_BASE_URL = "http://localhost:1111/demand/";
+const DEMAND_DETAILS_BASE_URL = "http://sphinx-architecture-1754966512.ap-south-1.elb.amazonaws.com:8080/demand/";
 
 class DemandServices {
   getDemand(organizationId, token) {

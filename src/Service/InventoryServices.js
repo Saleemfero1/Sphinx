@@ -1,12 +1,12 @@
 import axios from "axios";
 
 // add versioning based on requirement v1 v2 v3
-const INVENTORY_DETAILS_BASE_URL = "http://localhost:1111/availability/v3/";
-const TOTAL_NUMBERS = "http://localhost:1111/availability/v4/";
-const GET_TRANSACTION_BASE_URL = "http://localhost:1111/availability/v5/";
+const INVENTORY_DETAILS_BASE_URL = "http://sphinx-architecture-1754966512.ap-south-1.elb.amazonaws.com:8080/availability/v3/";
+const TOTAL_NUMBERS = "http://sphinx-architecture-1754966512.ap-south-1.elb.amazonaws.com:8080/availability/v4/";
+const GET_TRANSACTION_BASE_URL = "http://sphinx-architecture-1754966512.ap-south-1.elb.amazonaws.com:8080/availability/v5/";
 const GET_MOST_TRENDING_ITEMS_BASE_URL =
-  "http://localhost:1111/availability/v6/";
-const GET_LOW_AND_HIGHSTOCK_BASE_URL = "http://localhost:1111/availability/v9/";
+  "http://sphinx-architecture-1754966512.ap-south-1.elb.amazonaws.com:8080/availability/v6/";
+const GET_LOW_AND_HIGHSTOCK_BASE_URL = "http://sphinx-architecture-1754966512.ap-south-1.elb.amazonaws.com:8080/availability/v9/";
 
 class InventoryServices {
   getDetailOfItemAtAllTheLocation(organizationId, token) {

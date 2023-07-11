@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const ITEM_DETAILS_BASE_URL = "http://localhost:1111/item/";
+const ITEM_DETAILS_BASE_URL = "http://sphinx-architecture-1754966512.ap-south-1.elb.amazonaws.com:8080/item/";
 
 class ItemServices {
   getItems(organizationId, token) {

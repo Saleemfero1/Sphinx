@@ -55,7 +55,7 @@ export default function DataTabel({
   const fetchData = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:1111/location/page/" +
+        "http://sphinx-architecture-1754966512.ap-south-1.elb.amazonaws.com:8080/location/page/" +
           sessionStorage.getItem("organizationId"),
         {
           headers: {

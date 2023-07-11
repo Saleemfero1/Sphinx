@@ -56,7 +56,7 @@ export default function DemandTable({
   const fetchData = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:1111/demand/page/" +
+        "http://sphinx-architecture-1754966512.ap-south-1.elb.amazonaws.com:8080/demand/page/" +
           sessionStorage.getItem("organizationId"),
         {
           headers: {
